@@ -2,8 +2,8 @@
 import type { UserProfile, Answers, AiResults } from '../types';
 import { API_PROVIDERS } from '../constants';
 
-const GROK_PROVIDER = API_PROVIDERS.find(p => p.model === "x-ai/grok-4-fast:free");
-const GPT_PROVIDER = API_PROVIDERS.find(p => p.model === "openai/gpt-3.5-turbo");
+const GROK_PROVIDER = API_PROVIDERS.find(p => p.model === "nvidia/nemotron-nano-9b-v2:free");
+const GPT_PROVIDER = API_PROVIDERS.find(p => p.model === "x-ai/grok-4-fast:free");
 
 function formatAnswersForPrompt(answers: Answers): string {
     return Object.values(answers).map(answer => 
