@@ -1,0 +1,5 @@
+{
+  "name": "AI Career Navigator",
+  "description": "A career navigator for high school students that uses AI to provide personalized career and course recommendations based on a series of insightful questions.",
+  "requestFramePermissions": []
+}
