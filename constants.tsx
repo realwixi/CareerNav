@@ -4,12 +4,12 @@ import type { Question } from './types';
 
 export const API_PROVIDERS = [
   {
-    apiKey: "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",
-    model: "openai/gpt-3.5-turbo",
+    apiKey: "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",
+    model: "nvidia/nemotron-nano-9b-v2:free",
     url: "https://openrouter.ai/api/v1/chat/completions",
   },
   {
-    apiKey: "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",
+    apiKey: "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",
     model: "x-ai/grok-4-fast:free",
     url: "https://openrouter.ai/api/v1/chat/completions",
   },
