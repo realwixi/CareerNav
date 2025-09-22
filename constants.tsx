@@ -4,13 +4,13 @@ import type { Question } from './types';
 
 export const API_PROVIDERS = [
   {
-    apiKey: "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",
+    apiKey: "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",
     model: "nvidia/nemotron-nano-9b-v2:free",
     url: "https://openrouter.ai/api/v1/chat/completions",
   },
   {
-    apiKey: "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",
-    model: "x-ai/grok-4-fast:free",
+    apiKey: "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",
+    model: "nvidia/nemotron-nano-9b-v2:free"",
     url: "https://openrouter.ai/api/v1/chat/completions",
   },
 ];
